@@ -28,9 +28,18 @@
     
     }
     .banner__info > h1 {
-        font-size: 1.6rem;
+        font-size: 1.6rem;  
+      
     }
 
+}
+
+@media screen and (max-height: 800px) {
+.banner__info {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+    
 }
 
 .banner__search {
