@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './DatePicker.css'
-import { DateRangePicker } from "react-date-range"
+import { DateRangePicker } from "react-date-range";
 import PeopleIcon from '@material-ui/icons/People';
 import { Button } from "@material-ui/core"
 import 'react-date-range/dist/styles.css'; // main style file
@@ -30,12 +30,12 @@ function handleSelect(ranges) {
         ranges={[selectionRange]}
         onChange={handleSelect}
         />
-      <h2>Number of guests</h2>
-      <PeopleIcon />
+      
+      <h2>Number of guests <PeopleIcon /></h2>
       <input min={0}
       defaultValue={2}
       type="number" />
-    <Button>Search AirBnb</Button>
+    <Button>Search Airbnb</Button>
 
 
     </div>

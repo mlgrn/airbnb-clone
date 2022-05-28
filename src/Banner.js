@@ -16,7 +16,7 @@ function Banner() {
             {showDates && <DatePicker />}
             
             <Button onClick={() => setShowDates(!showDates)} variant="outlined" className="banner__searchButton">
-            Search Dates</Button>
+            {showDates === true? "Hide" : "Search Dates"}</Button>
         </div>
 
 
