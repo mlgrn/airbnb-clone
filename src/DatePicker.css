@@ -1,0 +1,20 @@
+.datePicker {
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    width: 100vw;
+}
+
+.datePicker > h2 {
+     
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 380px;
+}
