@@ -15,8 +15,10 @@ function Header() {
             <input type="text" />
             <SearchIcon />
         </div>
+
+
         <div className="header__right">
-            <p>Become a Host</p>
+            <p>Become A Host</p>
             <LanguageIcon />
             <ExpandMoreIcon />
             <Avatar />
