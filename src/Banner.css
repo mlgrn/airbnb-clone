@@ -46,6 +46,9 @@
     display: flex;
     flex-direction: column;
 }
+.banner__search > button {
+    border-radius: 0px;
+}
 
 .banner__info > button {
     background-color: #ff7779;
@@ -53,6 +56,7 @@
     text-transform: inherit;
     margin-top: 20px;
     font-weight: 600;
+   
 
 }
 

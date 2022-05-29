@@ -2,11 +2,14 @@ import React, { useState } from 'react'
 import './Banner.css'
 import DatePicker from './DatePicker';
 import { Button } from "@material-ui/core"
+// useNavigate replaces like old useHistory hook
+import { useNavigate } from "react-router-dom";
 
 
 
 
 function Banner() {
+  const navigate = useNavigate()
     const [showDates, setShowDates] = useState(false);
 
 
@@ -26,6 +29,7 @@ function Banner() {
 
         <Button
         variant="outlined"
+        onClick={() => navigate('/search')}
         >Explore Near You</Button>
         </div>
     </div>
